@@ -1,0 +1,37 @@
+.autosuggest{
+    width: 100%;
+    border: 1px solid grey;
+    box-shadow: darkred;
+    font-size: 18px;
+   
+}
+
+.autosuggest input{
+ width: 100%;
+ border:none;
+ font-size: 18px;
+ box-sizing: border-box;
+ padding: 10px 5px;
+ outline: none;
+}
+
+.autosuggest ul{
+    list-style-type: none;
+    text-align:left;
+    margin:0;
+    padding: 0;
+    border-top: 1px solid grey;
+}
+.autosuggest ul::before{
+    content:"";
+}
+
+.autosuggest li{
+    padding : 10px 5px;
+    cursor: pointer;
+}
+.autosuggest li:hover{
+    background-color: rosybrown;
+    /* text-decoration: underline; */
+}
+

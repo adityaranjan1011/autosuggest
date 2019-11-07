@@ -1,0 +1,10 @@
+
+  App {
+  text-align: center;
+  margin:50px; 
+}
+
+.App-component{
+  margin : 150px auto 0 auto;
+  width:600px;
+}
